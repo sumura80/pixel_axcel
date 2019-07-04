@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel="shortcut icon" href="favicon.ico">
+<title>ピクセルストア 購入</title>
+
+
+
+<style>
+
+</style>
+  </head>
+  <body>
+  <header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">ピクセルストア</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">ギャラリー <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="post.html">投稿 <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link active" href="purchase.html">購入 <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="about.html">Pixel Axcel <span class="sr-only">(current)</span></a>
+      </li>
+
+ <!--      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li> -->
+    </ul>
+    
+
+  </div>
+</nav>
+</header>
+<div class="wholewrap">
+  <div class="wrap2 container">
+    <h3 class="post_title">注文手続き <span><i class="fas fa-shopping-cart"></i></span></h3>
+
+    <div class="appeal">
+      下記のドロップダウンよりお好きな商品を選択し、必要事項を記入してください。
+    </div>
+  
+
+  <div class="billing-title"> 
+    <h3>注文内容を登録してください</h3>
+  </div>
+    
+<div class="purchase-section">
+   
+  <form action="purchase-form"> 
+    <div class="form-group row">
+      <label for="itemselection" class="col-sm-3 col-form-label">注文商品<br>複数選択可能</label>
+      <div class="col-sm-9">
+        <select class="form-control" id="itemselection" multiple="multiple">
+          <option>商品を選択してください</option>
+          <option value="ひよこ" data-price="980">ひよこ 980円</option>
+          <option value="たい焼き" data-price="670">たい焼き 670円</option>
+          <option value="まねき猫" data-price="1280">まねき猫 1280円</option>
+          <option value="プリン" data-price="880">プリン 880円</option>
+          <option value="雨の日" data-price="540">雨の日 540円</option>
+        </select>
+      </div>
+    </div>  
+
+
+
+     <div class="form-row mt-4">
+      <div class="form-group col-sm-6">
+        <label for="inputname">姓</label>
+        <input type="text" class="form-control" id="inputname" placeholder="山田">
+         </div>
+        <div class="form-group col-sm-6">
+        <label for="inputname">名前</label>
+        <input type="text" class="form-control" id="inputname" placeholder="太郎">
+      </div>
+    </div>
+
+
+    <div class="form-row">
+      <div class="form-group col-sm-6">
+        <label for="inputEmail">Eメールアドレス</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="sample@pixel.com">
+         </div>
+        <div class="form-group col-sm-6">
+        <label for="inputPhone">電話番号</label>
+        <input type="text" class="form-control" id="inputPhone" placeholder="0120-123-456">
+      </div>
+    </div>
+
+
+  <div class="datepicker">
+    <div class="form-group row">
+      <label for="shippingdate" class="col-sm-3 col-form-label">商品発送日</label>
+      <div class="col-sm-9">
+      <input type="date" class="form-control" id="date" placeholder="発送日を選択してください">
+    </div>
+   </div>
+  </div>
+  
+
+  <!-- ラジオボタンによって登録住所の変更 -->
+    <div class="radioaddess">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="domestic_shipping" name="shipping_address" class="custom-control-input domestic" checked="checked" value="domestic">
+        <label for="domestic_shipping" class="custom-control-label">国内へ発送</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="international_shipping" name="shipping_address" class="custom-control-input international" value="international">
+        <label for="international_shipping" class="custom-control-label">海外へ発送</label>
+      </div> 
+    </div><!--radioaddess-->
+
+
+  <div class="addressDisplay">
+    <div class="address address_domestic">
+      <h5>日本国内</h5>
+      <p>境界ユーティリティ · クリアフィックス · 閉じるアイコンボタン · カラーユーティリティ · 表示ユーティリティ · 動画の埋め込み · Flexユーティリティ; 横の配置ユーティリティ; 画像置換 · オーバーフローユーティリティ · 位置ユーティリティ · スクリーンリーダー · シャドウ ...</p>
+    </div>
+      
+
+
+    <div class="address address_international">
+      <h5>海外</h5>
+      
+      <p>Lorem ipsum dolor amet pork belly butcher blue bottle gastropub. Tofu taiyaki hot chicken trust fund, DIY locavore flannel typewriter. Mustache brooklyn crucifix coloring book, sriracha trust fund austin. You probably haven't heard of them kinfolk austin kickstarter sustainable, microdosing venmo glossier fam offal mustache shabby chic mixtape flexitarian literally. Wayfarers succulents deep v, waistcoat taiyaki post-ironic DIY disrupt four loko humblebrag organic microdosing tbh crucifix. Wayfarers listicle chartreuse kickstarter, meggings bushwick succulents health goth jianbing stumptown helvetica green juice XOXO. Art party meh gentrify deep v, PBR&B cornhole tattooed XOXO farm-to-table cloud bread austin.</p>
+    </div>
+  </div>
+
+  </form>
+</div>
+
+
+  <div class="billconfirmation-title"> 
+    <h3>金額の確認</h3>
+  </div>
+
+  <div class="billconfirmation-section">
+
+  <form action="bill_confirm">
+    <div class="form-group row">
+      <label for="sub_total" class="col-auto col-sm-3 col-form-label">小計金額 </label>
+      <div class="col-auto col-sm-4">
+        <input type="sub_total" class="form-control" id="sub_total" disabled>
+      </div>
+      <div class="col-auto col-sm-1 mt-2">
+        <label>
+          円
+        </label>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="taxprice" class="col-auto col-sm-3 col-form-label">税額(8%)</label>
+      <div class="col-auto col-sm-4">
+        <input type="text" class="form-control" id="taxprice" disabled >
+      </div>
+      <div class="col-auto col-sm-1 mt-2">
+        <label>
+          円
+        </label>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="shipping_price" class="col-auto col-sm-3 col-form-label">配送料
+      </label>
+      <div class="col-auto col-sm-4">
+        <input type="text" class="form-control" id="shipping_price" disabled placeholder="980">
+      </div>
+      <div class="col-auto col-sm-1 mt-2">
+        <label>
+          円
+        </label>
+      </div>
+      <div class="col-auto col-sm-12 mt-2">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="shippingFeeRadio" id="kokunai" value="kokkunai" checked>
+          <label for="kokunai" class="mt-2 shipping_fee shipping_kokunai">国内¥980</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="shippingFeeRadio" id="kaigai" value="kaigai">
+          <label for="kaigai" class="mt-2 shipping_fee shipping_kaigai">海外¥2,980</label>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="form-group row mt-4">
+      <label for="total_price" class="col-auto col-sm-3 col-form-label" style="font-weight: bold; font-size: 1.2em;">合計金額 </label>
+      <div class="col-auto col-sm-4">
+        <input type="text" class="form-control" id="total_price" disabled>
+      </div>
+      <div class="col-auto col-sm-1 mt-2">
+        <label>
+          円
+        </label>
+      </div>
+    </div>
+
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="memberDiscount" id="memberDiscount">
+      <label class="form-check-label" for="memberDiscount" style="color:red;">
+        会員のお客様は40%割引<br>(会員の方はチェックを入れてください)
+      </label>
+    </div>
+
+
+
+    <div class="form-group row mt-4">
+      <label for="memberPrice" class="col-auto col-sm-3 col-form-label" style="font-weight: bold; font-size: 1.2em;">会員価格</label>
+      <div class="col-auto col-sm-4">
+        <input type="text" class="form-control" id="memberPrice" disabled>
+      </div>
+      <div class="col-auto col-sm-1 mt-2">
+        <label>
+          円
+        </label>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="Password" class="col-auto col-sm-3 col-form-label">会員様<br>パスワード</label>
+      <div class="col-auto col-sm-4">
+        <input type="text" class="form-control" id="password" placeholder="パスワード">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="Password" class="col-auto col-sm-3 col-form-label">確認用<br>パスワード</label>
+      <div class="col-auto col-sm-4">
+        <input type="password" class="form-control" id="conpassword" placeholder="確認用パスワード">
+      </div>
+      <div class="col-auto col-sm-2">
+        <input type='checkbox' id='checkpw'/> 表示 
+      </div>
+    </div>
+    <p id="resultPassCheck"></p>
+
+      
+
+  </form>
+      
+  </div>
+
+
+
+
+  <div class="datasend">
+    <a href="thanks.html" class="btn btn-warning mx-auto d-block" style="
+    max-width: 350px;">注文確定</a>
+  </div>
+
+ 
+  </div><!-- end of  wrap2 container -->
+
+
+
+
+
+<!-- Topへ戻る画像 -->
+<a id="pagetop" href="#"><img src="https://into-the-program.com/assets/images/icon/icon_backtotop.png" alt="Scroll Top"></a>
+
+<!-- Footer -->
+       <footer div class="footer ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                     <ul class="list-inline quicklinks">
+                        <li class="list-inline-item"><a href="index.html">Top</a></li>
+                        <li class="list-inline-item"><a href="gallery.html">ギャラリー</a></li>
+                        <li class="list-inline-item"><a href="post.html">投稿</a></li>  
+                        <li class="list-inline-item"><a href="purchase.html">購入</a></li>  
+                        <li class="list-inline-item"><a href="about.html">Pixel Axcel</a></li>    
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-3x social-icons" ></i></a>
+                        </li>
+
+                        <li class="list-inline-item"><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-3x social-icons"></i></a>
+                        </li>
+    
+                        <li class="list-inline-item"><a href="https://www.youtube.com/"><i class="fab fa-youtube-square fa-3x social-icons"></i></a>
+                        </li>
+
+                        <li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x social-icons"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-md-12">
+                <span class="copyright"><small>Copyright &copy; 2019 Pixel Axcel Inc. All Rights Reserved.</small></span>
+                   
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+</div>
+
+</body>
+</html>

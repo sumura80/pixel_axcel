@@ -1,0 +1,356 @@
+body{
+	background-color: #F9F9F9;
+}
+footer{
+	background-color: #2C2C2C;
+	color: 	#909090;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	margin-top: 100px;
+}
+.jumbotron{
+	background:url('toppixel.jpg');
+	background-size: cover;
+	border-radius: 0px;
+ 	color:#fff;
+}
+
+.popular-img{
+	padding-top: 50px;
+}
+.quicklinks li{
+	text-align: center;
+	font-size:1.2em;
+	margin-bottom: 15px;
+
+}
+.quicklinks li a{
+	color:#909090;
+	margin-right: 15px;
+
+}
+
+.social-icons{
+	color:#909090;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.social-icons:hover{
+	color:#59C3BE;
+}
+
+.quicklinks li a:hover{
+	color:#D5D4D4;
+	text-decoration: none;
+}
+
+
+/* top page middle*/
+.card-title{
+	text-align: center;
+
+}
+
+.intro-faw .fas{
+	font-size: 52px;
+	margin:20px 0px;
+	color:#59C3BE;
+}
+
+.intro-faw .far{
+	font-size: 52px;
+	margin:20px 0px;
+	color:#59C3BE;
+}
+
+
+.page-intro{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+/*top page upper introcution long bar */
+.wrap_intro_bar{
+	padding:80px 15px;
+	background-color: #EBF6F4;
+	margin-top: 100px;
+
+
+}
+
+.wrap_intro_bar h3{
+	text-align: center;
+	color: #20A9CD;
+}
+.wrap_intro_bar{
+	text-align: center;
+	font-size: 1.4em;
+	color: #20A9CD;
+}
+
+/* To top page*/
+#pagetop {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 60px;
+  z-index: 5;
+}
+
+#pagetop img {
+  width: 40px;
+  height: auto;
+ 
+}
+
+/* 投稿・販売ページ*/
+.post_title{
+	color:#59C3BE;
+	margin: 40px 0px 15px;
+	margin-bottom: 30px;
+}
+
+.appeal{
+	font-size: 1.2em;
+}
+
+.posting-title{
+	border-bottom:5px solid #20A9CD;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+/* 一定文字以内だと赤文字*/
+.over30letters{
+	color:green;
+}
+.over20letters{
+	color:orange;
+	box-shadow: 
+}
+.over10letters{
+	color:red;
+}
+
+
+/*selling-section 販売価格などの見積もり　*/
+.selling-title{
+	margin-top: 120px;
+	border-bottom:5px solid #20A9CD;
+}
+.selling-section{
+	padding: 40px 15px;
+	background-color: #EBF6F4;
+
+}
+#estimated_profit{
+	margin-left: 30px;
+	font-size: 1.6em;
+}
+
+
+.tag-title{
+	margin-top: 120px;
+	border-bottom:5px solid #20A9CD;
+}
+
+.tag-section{
+	padding: 20px 15px 100px 15px;
+	background-color: #EBF6F4;
+
+}
+
+.tagarea{
+	margin-bottom: 40px;
+}
+
+#tagarea {
+	border: 1px solid #3EA3A6;
+	border-radius: 5px;
+	padding:5px;
+	width:100%;
+	text-align: center;
+}
+#tagarea:hover {
+	cursor:pointer;
+	background-color: #8DC38A;
+	color:#FFF;
+	transition: 0.3s; 
+}
+
+.datasend{
+	margin-top: 50px;
+}
+
+.marginbtm{
+	margin-bottom: 285px;
+}
+
+
+/*注文画面*/
+.billing-title{
+	margin-top: 40px;
+	border-bottom:5px solid #20A9CD;
+}
+
+.purchase-section{
+	padding: 15px 15px;
+	background-color: #EBF6F4;
+}
+
+/*国内と海外の発送住所*/
+.radioaddess{
+	margin-top: 20px;
+}
+.addressDisplay{
+	margin-top: 20px;
+}
+
+.address{
+display: none;
+}
+.address_domestic{
+	display: block;
+}
+
+.datepicker{
+	margin: 20px 0px 30px 0px;
+}
+.billconfirmation-title{
+	margin-top: 50px;
+	border-bottom:5px solid #20A9CD;
+}
+
+
+.billconfirmation-section{
+	background-color: #EBF6F4;
+	padding: 15px 15px;
+	margin-bottom: 60px;
+}
+
+/* 国内と海外での配送料の分別　*/
+
+.shipping_fee{
+
+}
+
+.shipping_kokunai{
+	display: block;
+}
+
+
+/* パスワード確認で不一致の時　*/
+.confirmPassword{
+	color:red;
+}
+
+
+
+/* ギャラリーページ　*/
+.gallery-title{
+	margin-top: 60px;
+	border-bottom:5px solid #20A9CD;
+}
+
+.gallery-section{
+	padding: 20px 15px 100px 15px;
+	background-color: #EBF6F4;
+
+}
+
+
+/* gallery ページ */
+.wrap3{
+	margin-top: 60px;
+}
+
+/* タブのCSS */
+ul.tabs{
+list-style: none;
+}
+
+ul.tabs li{
+	float:left;
+	margin-right: 10px;
+	padding: 10px 30px;
+	background-color: #177EBD;
+	color:#FFF;
+	cursor: pointer;
+	margin-left: -40px;
+	margin-right: 50px;
+	border-radius: 5px 5px 0 0;
+}
+
+ul.tabs li:hover{
+	color:#FFF;
+	background-color: #4F9AC8;
+}
+
+ul.tabs li.active{
+	background-color: #9DA3A6;
+
+}
+
+.tabitem{
+	clear:both;
+	width:100%;
+	display:none;
+	background-color: #EBF6F4;
+
+}
+.active{
+	display:block;
+}
+
+.tabitem{
+padding:20px;
+border-top: 2px solid #20A9CD;
+}
+
+
+.sidebar_fixed {
+  position: fixed;
+  top: 0;
+  left: 40;
+  z-index: 1;
+  width:15%;
+}
+
+
+
+/*top page スライダー　*/
+#slideshow{
+ 	width:460px;
+	height:230px;
+
+}
+.slides{
+	text-align: center;
+	width:460px;
+	height:230px;
+	overflow:hidden;
+}
+
+.slide{
+	float:left;
+	list-style: none;
+		width:460px;
+	height:230px;
+}
+/* End page スライダー　*/
+
+
+.hoverspice{
+	overflow: hidden;
+}
+
+.hoverspice img:hover{
+	transform: scale(1.1);
+	transition-duration: 0.3s;
+	background: #0B0202;
+	opacity: 0.8;
+}
+
