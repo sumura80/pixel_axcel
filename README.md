@@ -27,6 +27,7 @@
 16. 確認用パスワードを表示 (change,attr)
 17. ギャラリーのタブ (click, index, removeClass, eq, addClass, removeClass)
 18. サイドバー固定 (on, scroll, scrollTop, addClass, removeClass)
+19. ツールチップ (tooltip)
 ```
 
 
