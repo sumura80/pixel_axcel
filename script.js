@@ -205,6 +205,9 @@ $(window).on('scroll',function(){
 	}
 });
 
+//Tooltip
+$('.custom-control-label').tooltip();
+
 
 
 
